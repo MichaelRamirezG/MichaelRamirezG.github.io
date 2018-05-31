@@ -1,0 +1,38 @@
+p#p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: normal;
+    text-align: right;
+    font-size: small;
+}
+
+a#a1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: normal;
+    text-align: right;
+    font-size: small;
+}
+
+p#p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: normal;
+    text-align: left;
+    font-size: small;
+}
+
+p#p3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-variant: normal;
+    text-align: left;
+    font-size: small;
+}
+
+div#general {
+    margin: auto;
+    width: 800px;
+    height: 1000;
+    background: snow;
+}
