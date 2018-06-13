@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        
+        .row.content {
+            height: 450px
+        }
+        /* Set gray background color and 100% height */
+        
+        .sidenav {
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+        /* Set black background color, white text and some padding */
+        
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Turismo Cajamarca</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    aaa aaa1
+
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <div class="w3-card-4" style="width:70%">
+                </div>
+                <div class="container-fluid bg-1 text-center">
+                    <h3 class="margin"> </h3>
+                    <img src="mc.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+                    <h3>Michael Ramirez</h3>
+                </div>
+                <p>
+                </p>
+                <a class="" href="https://twitter.com/OscarMichael03" target="blank"><img src="twitter.png" alt="facebook"></a>
+                <a class="" href="https://www.instagram.com/michaeloramirezg/" target="blank"><img src="instagram.jpg" alt="instagram"></a>
+                <a class="" href="https://www.facebook.com/profile.php?id=1122182509" target="blank"><img src="fb.jpg" alt="facebook"></a>
+                <p>
+                </p>
+                <div class="contenedor de foto de Perfil">
+                </div>
+            </div>
+
+            <div class="col-sm-8 text-left">
+                <h1>Binvenidos.</h1>
+                <p>Hola Gente.! Gracias por visitar mi Web Personal, mi nombre es Michael Ramirez Gallardo natural de la hermosa tierra de Cajamarca "Capital del Carnaval Peruano".</p>
+                <p>Tengo 27 años soy una persona pro activa, dinamica, comunicativo, confiable, con gran deseo de superación y con un espiritu de responsabilidad. </p>
+                <hr>
+                <p>
+                    <h1>Educación</h1>
+                    <p>Mi secundaria la realice en el Glorioso colegio "San Ramón" de Cajamarca posteriormente estudie una carrera tecnica en el Intituto de Educación Publica "Hno Victorino Elorz Goicoechea"</p>
+                    <p>En la actualidad vengo cursando el noveno ciclo de la carrera profesional de Ingeniería de Sistemas en la Universidad Nacional de Cajamarca.</p>
+                </p>
+                <h1>Pasatiempo</h1>
+                <h3> Viajar</h3>
+                <p>Visitar diferentes lugares de nuestro pais me emiciona de gran manera, ya que puedo conocer los diferentes paisajes a igual que su gente y su cultura. </p>
+                ---------
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="pk.jpg" alt="New York" width="1200" height="700">
+                            <div class="carousel-caption">
+                                <h3>Cajamarca</h3>
+                                <p>Plaza Mayor De Cajamarca</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="mp.jpg" alt="Chicago" width="1200" height="700">
+                            <div class="carousel-caption">
+                                <h3>Pacasmayo</h3>
+                                <p>Playa de Pacasmayo</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="puc.jpg" alt="Los Angeles" width="1200" height="700">
+                            <div class="carousel-caption">
+                                <h3>Yarinacocha</h3>
+                                <p>Pucallpa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                ---------
+
+
+                <div="text-center">
+                    <h3> Deporte</h3>
+                    <p>Disfruto practicar futbol con amigos y familiare por ser una manera de confraternizar y mantenerse con buena salud. </p>
+                    <img src="sr.jpg" style="width:100%;">
+
+                    <div="text-left">
+                        <h3> MUSICA</h3>
+                        <p>Me gusta escuchar musica casi de todos los estilos, en su mayoria Rap-Hip Hop, ya que para mi pensar es la manera mas sincera de decir las cosas y los sentimientos</p>
+                        <iframe width="420" height="345" src="https://www.youtube.com/embed/5E49jH6x_gY?autoplay=1">
+                    </iframe>
+
+            </div>
+            <div class="container-fluid text-center">
+                <div class="row content">
+                    <div class="col-sm-2 sidenav">
+                        <ul>
+                            <li>
+                                <div class="item-thumbnail-only">
+                                    <div class="item-thumbnail">
+                                        <a href="http://www.vidamrr.com/2010/04/el-arte-de-los-video-juegos.html">
+                                            <img alt="El arte de los video juegos" border="0" height="72" src="http://lh3.ggpht.com/_J3J9Wwie1TY/S9cxndiyttI/AAAAAAAAGq8/QRhg9fW7QHg/s90-c/gamedesign_89.jpg?imgmax=800" width="72">
+                                        </a>
+                                    </div>
+                                    <div class="item-title"><a href="http://www.vidamrr.com/2010/04/el-arte-de-los-video-juegos.html">El arte de los video juegos</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="item-thumbnail-only">
+                                    <div class="item-thumbnail">
+                                        <a href="http://www.vidamrr.com/2010/04/14-sexy-galerias-y-slideshow-en.html">
+                                            <img alt="14 sexy galerías y slideshow en Javascript y CSS" border="0" height="72" src="http://lh3.ggpht.com/_J3J9Wwie1TY/S9g0wRYZezI/AAAAAAAAGrI/7yiBeFg_1sM/s90-c/newmediacampaigns%5B2%5D.gif?imgmax=800" width="72">
+                                        </a>
+                                    </div>
+                                    <div class="item-title"><a href="http://www.vidamrr.com/2010/04/14-sexy-galerias-y-slideshow-en.html">14 sexy galerías y slideshow en Javascript y CSS</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="item-thumbnail-only">
+                                    <div class="item-thumbnail">
+                                        <a href="http://www.vidamrr.com/2013/02/27-tutoriales-en-after-effects-para.html">
+                                            <img alt="27 tutoriales en After Effects para convertirse en un profesional" border="0" height="72" src="http://lh3.ggpht.com/-Gw8J-zTkbSg/USkoYJSNb5I/AAAAAAAAXU0/4ikfpDnoGMw/s90-c/image%25255B10%25255D.png?imgmax=800" width="72">
+                                        </a>
+                                    </div>
+                                    <div class="item-title"><a href="http://www.vidamrr.com/2013/02/27-tutoriales-en-after-effects-para.html">27 tutoriales en After Effects para convertirse en un profesional</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="item-thumbnail-only">
+                                    <div class="item-thumbnail">
+                                        <a href="http://www.vidamrr.com/2013/08/como-agregar-un-boton-de-suscripcion-de.html">
+                                            <img alt="Cómo agregar un botón de suscripción de Youtube a tu sitio web o blog" border="0" height="72" src="http://lh3.ggpht.com/-xmAbYktagAQ/Uf68gGjAhLI/AAAAAAAAZgk/Lpt7bjlIhJk/s90-c/boton-youtube-sitio-web%25255B3%25255D.jpg?imgmax=800" width="72">
+                                        </a>
+                                    </div>
+                                    <div class="item-title"><a href="http://www.vidamrr.com/2013/08/como-agregar-un-boton-de-suscripcion-de.html">Cómo agregar un botón de suscripción de Youtube a tu sitio web o blog</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="item-thumbnail-only">
+                                    <div class="item-thumbnail">
+                                        <a href="http://www.vidamrr.com/2013/03/30-ejemplos-de-sitios-web-usando-el.html">
+                                            <img alt="30 ejemplos de sitios web usando el Bootstrap Framework de Twitter" border="0" height="72" src="http://lh3.ggpht.com/-sjU9rNwQ1Jg/UTuFmIQbvsI/AAAAAAAAXqU/GgqQ6hSKMAw/s90-c/image%25255B3%25255D.png?imgmax=800" width="72">
+                                        </a>
+                                    </div>
+                                    <div class="item-title"><a href="http://www.vidamrr.com/2013/03/30-ejemplos-de-sitios-web-usando-el.html">30 ejemplos de sitios web usando el Bootstrap Framework de Twitter</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="item-thumbnail-only">
+                                    <div class="item-thumbnail">
+                                        <a href="http://www.vidamrr.com/2013/02/20-tipografias-estilo-madera-gratis.html">
+                                            <img alt="20 tipografías estilo madera gratis" border="0" height="72" src="http://lh6.ggpht.com/-O2Qcr0Lahi4/USkjwrJm6SI/AAAAAAAAXUg/NzAnTI5BMBg/s90-c/image%25255B2%25255D.png?imgmax=800" width="72">
+                                        </a>
+                                    </div>
+                                    <div class="item-title"><a href="http://www.vidamrr.com/2013/02/20-tipografias-estilo-madera-gratis.html">20 tipografías estilo madera gratis</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                            <li>
+                                <div class="item-thumbnail-only">
+                                    <div class="item-thumbnail">
+                                        <a href="http://www.vidamrr.com/2013/03/explicando-las-diferencias-entre-las.html">
+                                            <img alt="Explicando las diferencias entre las redes sociales con gatos" border="0" height="72" src="http://lh6.ggpht.com/-zqN6LAKynN8/UTtr_OHC-PI/AAAAAAAAXpI/SGpmBNnJMw8/s90-c/image%25255B7%25255D.png?imgmax=800" width="72">
+                                        </a>
+                                    </div>
+                                    <div class="item-title"><a href="http://www.vidamrr.com/2013/03/explicando-las-diferencias-entre-las.html">Explicando las diferencias entre las redes sociales con gatos</a></div>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
+
+
+</body>
+
+</html>
