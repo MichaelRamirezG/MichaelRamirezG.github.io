@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .my {
+        display: none
+    }
+    
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+        cursor: pointer
+    }
+    
+    .w3-badge {
+        height: 13px;
+        width: 13px;
+        padding: 0
+    }
+</style>
+
+<body id="myPage">
+
+    <!-- Sidebar on click -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        <a href="#" class="w3-bar-item w3-button">Link 4</a>
+        <a href="#" class="w3-bar-item w3-button">Link 5</a>
+    </nav>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+            <a href="#iglesias" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Iglesias</a>
+            <a href="#lugares" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Lugares</a>
+            <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                    <a href="#" class="w3-bar-item w3-button">Link</a>
+                    <a href="#" class="w3-bar-item w3-button">Link</a>
+                    <a href="#" class="w3-bar-item w3-button">Link</a>
+                </div>
+            </div>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+            <a href="#iglesias" class="w3-bar-item w3-button">Iglesias</a>
+            <a href="#lugares" class="w3-bar-item w3-button">Lugares</a>
+            <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            <a href="#" class="w3-bar-item w3-button">Search</a>
+        </div>
+    </div>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+        <img src="Imagenes/cajamarcanocheiglesias.jpeg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">(Click)CIUDAD DE CAJAMARCA </button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-teal w3-display-container">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+                <h4>CAJAMARCA CAPITAL DEL CARNAVAL</h4>
+                <h5>¿Por qué visitar la ciudad de Cajamarca? <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-container">
+                <p>La ciudad de Cajamarca, se encuentra dentro de la provincia y región que llevan el mismo nombre. Esta ciudad ha presentado ocupación hace más de tres mil años, y actualmente, es una de las ciudades más importantes de la sierra del Perú.
+                    Esta ciudad es capital de la provincia en la que se ubica, así como del departamento, y presenta dicho título desde el año 1855. Entre los diferentes atractivos turísticos con los que cuenta esta ciudad, se hallan sitios como el Centro
+                    Histórico de Cajamarca; aquel se ve conformado por el grupo de iglesias de la ciudad, así como también importantes casonas coloniales. Las principales iglesias que se sitúan en la ciudad, son la de San Francisco, la Iglesia de La Recoleta,
+                    la Catedral de Cajamarca, la Capilla de la Virgen de los Dolores, entre otros. Uno de los principales complejos que se ubican en la ciudad, es el Complejo de Belén, que abarca a la iglesia, al hospital de varones, y el de mujeres.
+                    Dicho complejo religioso alberga en su interior, valiosas muestras de arte religioso, manifestados en mobiliario, cuadros, esculturas, y demás. Un atractivo importante en la ciudad, y cuyo valor recae, en especial, en su historia,
+                    es el Cuarto del Rescate. Este lugar, que se sitúa en la Plaza de Armas de la ciudad, es el sitio que el Inca Atahualpa ofreciera llenar, una vez de oro y dos de plata, hasta la altura de su mano levantada, a cambio de su liberación.</p>
+
+            </div>
+            <footer class="w3-container w3-teal">
+                <p>Animate..</p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Team Container -->
+    <div class="w3-container w3-padding-64 w3-center" id="iglesias">
+        <div class="w3-container">
+            <h2>Iglesias Y Templos Principales de la ciudad de Cajamarca</h2>
+            <p>La fe en la iglesia Católica se asentó en la época de la colonia, época en la cual para mostrar la devoción en Cajamarca se construyeron imponentes templos, los cuales hoy son considerados como verdaderos monumentos arquitectónicos. En Cajamarca
+                las iglesias más representativas del centro histórico son la Catedral o Santa Catalina, San Francisco o San Antonio y finalmente Belén.</p>
+        </div>
+
+        <div class="w3-content w3-display-container">
+
+            <div class="w3-display-container mySlides">
+                <img src="Imagenes/catedral.jpeg" style="width:700px">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    IGLESIA CATEDRAL
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Imagenes/belen1.jpeg" style="width:700px">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                    IGLESIA BELEN
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Imagenes/sanfrancisco.jpeg" style="width:400px">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    IGLESIA SAN FRANCISCO
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Imagenes/monjas.jpeg" style="width:700px">
+                <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                    IGLESIA Y CONVENTO DE LAS CONCEPCIONISTAS DESCALZAS
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Imagenes/recoleta.jpg" style="width:700px">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    IGLESIA LA RECOLETA
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Imagenes/santa.jpeg" style="width:400px">
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                    CAPILLA NUESTRA SEÑORA DE FÁTIMA
+                </div>
+            </div>
+
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+        </div>
+
+        <script>
+            var slideInde = 1;
+            showDivs(slideInde);
+
+            function plusDivs(n) {
+                showDivs(slideInde += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                    slideInde = 1
+                }
+                if (n < 1) {
+                    slideInde = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideInde - 1].style.display = "block";
+            }
+        </script>
+    </div>
+
+    <!-- Work Row -->
+    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="lugares">
+
+        <div class="w3-quarter">
+            <h2>Conoce Cajamarca</h2>
+            <p>Cajamarca es una tierra donde la historia se une a la naturaleza para crear una experiencia inolvidable. Encuentra en esta región una magnífica arquitectura colonial, pueblos coloridos y una gastronomía digna de admirar. Relájate en los Baños
+                del Inca, admira el Complejo Arqueológico de Cumbemayo y diviértete en sus carnavales llenos de vida y color. ¡Definitivamente aquí lo pasarás bien!</p>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="Imagenes/rescate.jpg" alt="Snow" style="width:100%">
+                <div class="w3-container">
+                    <h3>Cuarto de Rescate</h3>
+                    <p>Único testigo del epílogo de la captura del inca Atahualpa.En este recinto el Inca Atahualpa, estando prisionero, ofreció a Francisco Pizarro llenarle el cuarto dos veces con plata y una con oro a cambio de su libertad.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="Imagenes/baños.jpeg" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                    <h3>Baños del Inca</h3>
+                    <p>A 15 minutos de la ciudad de Cajamarca, se encuentran los Baños del Inca. Lleva este nombre porque sus aguas termales, de origen volcánico, eran visitadas por el inca Atahualpa para relajarse y recuperar fuerzas.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="Imagenes/frailones.jpeg" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+                    <h3>Frailones</h3>
+                    <p>Están situados en la zona arqueológica de Cumbemayo y se les llamó “frailones” por los españoles, quienes desde kilómetros divisaban estas estructuras que se parecían a gigantescos frailes encapuchados.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="Imagenes/colpa.jpeg" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                    <h3>Haciendo la Colpa</h3>
+                    <p>La hacienda La Colpa es uno de los centros turísticos, promocionados por las diferentes agencias de turismo. Una de las características especiales de este lugar es el llamado de las vacas por su nombre, las cuales al escuchar su nombre,
+                        se ubican en su correspondiente lugar en el establo para el ordeño.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="Imagenes/llacanora.jpg" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                    <h3>Llacanora</h3>
+                    <p>El pueblo de Llacanora, dista 13 kilómetros de la ciudad de Cajamarca. El nombre de la cascada, igual que el pueblo, tiene el significado de “Tierra de Color”, aunque también es traducido como “Deshojar maíz” o “Alargado”.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="Imagenes/otuzco.JPG" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                    <h3>Ventanillas de Otuzco</h3>
+                    <p>Las Ventanillas de Otuzco, también llamadas Necrópolis de Otuzco, son unas edificaciones funerarias que por su forma parecen ser ventanas, de ahí su nominación de Ventanillas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="Imagenes/porcon.JPG" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                    <h3>Granja de Porcon</h3>
+                    <p>El pueblo de Granja Porcón vive una vida aparte de la locura de la ciudad. Le gusta mostrar a sus visitantes la paz y la tranquilidad que vienen de su vida simple, los cuales traen consigo el poder de sanar su alma.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Pricing Row -->
+    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+        <div class="w3-container">
+            <h2>Slideshow Indicators</h2>
+            <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+        </div>
+
+        <div class="w3-content w3-display-container" style="max-width:800px">
+            <img class="my" src="Imagenes/carnaval2018.jpg" style="width:100%">
+            <img class="my" src="Imagenes/carnavalcomparsas2jpg.jpg" style="width:100%">
+            <img class="my" src="Imagenes/carnavalmarcajpg.jpg" style="width:100%">
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+            </div>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-white", "");
+                }
+                x[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " w3-white";
+            }
+        </script>
+
+    </div>
+
+    <!-- Contact Container -->
+    <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+        <div class="w3-row">
+            <div class="w3-col m5">
+                <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+                <h3>Address</h3>
+                <p>Swing by for a cup of coffee, or whatever.</p>
+                <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
+                <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
+                <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+            </div>
+            <div class="w3-col m7">
+                <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label>Name</label>
+                        <input class="w3-input" type="text" name="Name" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Email</label>
+                        <input class="w3-input" type="text" name="Email" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <input class="w3-input" type="text" name="Message" required>
+                    </div>
+                    <input class="w3-check" type="checkbox" checked name="Like">
+                    <label>I Like it!</label>
+                    <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Maps -->
+    <div id="googleMap" style="width:100%;height:420px;"></div>
+    <script>
+        function myMap() {
+            myCenter = new google.maps.LatLng(41.878114, -87.629798);
+            var mapOptions = {
+                center: myCenter,
+                zoom: 12,
+                scrollwheel: false,
+                draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
+            marker.setMap(map);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    <!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+        <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+        <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+            <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+        </div>
+    </footer>
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
