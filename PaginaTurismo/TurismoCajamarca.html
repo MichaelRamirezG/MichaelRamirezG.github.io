@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Turismo Cajamarca</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="Imagenes/favicon.ico">
 <style>
-    .my {
+    .mySlides {
         display: none
+    }
+    
+    .demo {
+        cursor: pointer
     }
     
     .w3-left,
@@ -25,19 +30,6 @@
 </style>
 
 <body id="myPage">
-
-    <!-- Sidebar on click -->
-    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-    <i class="fa fa-remove"></i>
-  </a>
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
-        <a href="#" class="w3-bar-item w3-button">Link 4</a>
-        <a href="#" class="w3-bar-item w3-button">Link 5</a>
-    </nav>
-
     <!-- Navbar -->
     <div class="w3-top">
         <div class="w3-bar w3-theme-d2 w3-left-align">
@@ -45,16 +37,7 @@
             <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
             <a href="#iglesias" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Iglesias</a>
             <a href="#lugares" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Lugares</a>
-            <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-            <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
-                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                    <a href="#" class="w3-bar-item w3-button">Link</a>
-                    <a href="#" class="w3-bar-item w3-button">Link</a>
-                    <a href="#" class="w3-bar-item w3-button">Link</a>
-                </div>
-            </div>
+            <a href="#carnaval" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Carnaval</a>
             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
         </div>
 
@@ -62,9 +45,9 @@
         <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
             <a href="#iglesias" class="w3-bar-item w3-button">Iglesias</a>
             <a href="#lugares" class="w3-bar-item w3-button">Lugares</a>
-            <a href="#pricing" class="w3-bar-item w3-button">Price</a>
-            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-            <a href="#" class="w3-bar-item w3-button">Search</a>
+            <a href="#carnaval" class="w3-bar-item w3-button">Carnaval</a>
+
+            <a href="#" class="w3-bar-item w3-button">Buscar</a>
         </div>
     </div>
 
@@ -267,128 +250,85 @@
 
 
     <!-- Pricing Row -->
-    <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
-        <div class="w3-container">
-            <h2>Slideshow Indicators</h2>
-            <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+    <div class="w3-row-padding w3-center w3-padding-64" id="carnaval">
+        <div class="w3-container w3-teal">
+            <h1>Cajamarca Capital del Carnaval Peruano</h1>
         </div>
 
-        <div class="w3-content w3-display-container" style="max-width:800px">
-            <img class="my" src="Imagenes/carnaval2018.jpg" style="width:100%">
-            <img class="my" src="Imagenes/carnavalcomparsas2jpg.jpg" style="width:100%">
-            <img class="my" src="Imagenes/carnavalmarcajpg.jpg" style="width:100%">
-            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <div class="w3-row-padding w3-margin-top">
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="Imagenes/carnaval2018.jpg" style="width:85%">
+                    <div class="w3-container">
+                        <h5>Carnaval 2018</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="Imagenes/carnavalentrada.jpg" style="width:100%">
+                    <div class="w3-container">
+                        <h5>Entrada de Ño Carnavalón</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="Imagenes/carnavalcomparsas2jpg.jpg" style="width:89%">
+                    <div class="w3-container">
+                        <h5>Lunes de Carnaval</h5>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
+        <div class="w3-row-padding w3-margin-top">
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="Imagenes/carnavalreinado.jpg" style="width:85%">
+                    <div class="w3-container">
+                        <h5>Señorita Carnaval</h5>
+                    </div>
+                </div>
+            </div>
 
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="Imagenes/carnavalnoche.jpg" style="width:100%">
+                    <div class="w3-container">
+                        <h5>Noches de Carnaval</h5>
+                    </div>
+                </div>
+            </div>
 
-            function currentDiv(n) {
-                showDivs(slideIndex = n);
-            }
-
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
-                if (n > x.length) {
-                    slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = x.length
-                }
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-white", "");
-                }
-                x[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " w3-white";
-            }
-        </script>
+            <div class="w3-third">
+                <div class="w3-card">
+                    <img src="Imagenes/carnavalentierro.jpg" style="width:84%">
+                    <div class="w3-container">
+                        <h5>Entierro del Ño Carnavalón</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
-    <!-- Contact Container -->
     <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
-        <div class="w3-row">
-            <div class="w3-col m5">
-                <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
-                <h3>Address</h3>
-                <p>Swing by for a cup of coffee, or whatever.</p>
-                <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Chicago, US</p>
-                <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
-                <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
-            </div>
-            <div class="w3-col m7">
-                <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
-                    <div class="w3-section">
-                        <label>Name</label>
-                        <input class="w3-input" type="text" name="Name" required>
-                    </div>
-                    <div class="w3-section">
-                        <label>Email</label>
-                        <input class="w3-input" type="text" name="Email" required>
-                    </div>
-                    <div class="w3-section">
-                        <label>Message</label>
-                        <input class="w3-input" type="text" name="Message" required>
-                    </div>
-                    <input class="w3-check" type="checkbox" checked name="Like">
-                    <label>I Like it!</label>
-                    <button type="submit" class="w3-button w3-right w3-theme">Send</button>
-                </form>
-            </div>
-        </div>
+
     </div>
-
-    <!-- Google Maps -->
-    <div id="googleMap" style="width:100%;height:420px;"></div>
-    <script>
-        function myMap() {
-            myCenter = new google.maps.LatLng(41.878114, -87.629798);
-            var mapOptions = {
-                center: myCenter,
-                zoom: 12,
-                scrollwheel: false,
-                draggable: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-
-            var marker = new google.maps.Marker({
-                position: myCenter,
-            });
-            marker.setMap(map);
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-    <!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-        <h4>Follow Us</h4>
+        <h4>Proximamente Redes Sociales</h4>
         <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
         <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
         <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
         <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
         <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        <p>¡Gracias Por tu Visita.!</a>
+        </p>
 
         <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
             <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
@@ -396,32 +336,6 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
     <i class="fa fa-chevron-circle-up"></i></span></a>
         </div>
     </footer>
-
-    <script>
-        // Script for side navigation
-        function w3_open() {
-            var x = document.getElementById("mySidebar");
-            x.style.width = "300px";
-            x.style.paddingTop = "10%";
-            x.style.display = "block";
-        }
-
-        // Close side navigation
-        function w3_close() {
-            document.getElementById("mySidebar").style.display = "none";
-        }
-
-        // Used to toggle the menu on smaller screens when clicking on the menu button
-        function openNav() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-    </script>
-
 </body>
 
 </html>
